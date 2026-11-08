@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Based%20in-Cape%20Town-E8643C?style=flat-square" alt="Based in Cape Town"/>
+  <a href="https://halte.co.za"><img src="https://img.shields.io/badge/Try-Halte-E8643C?style=flat-square&logo=googlemaps&logoColor=white" alt="Try Halte"/></a>
+  <img src="https://img.shields.io/badge/Based%20in-Cape%20Town-2E6E77?style=flat-square" alt="Based in Cape Town"/>
   <img src="https://img.shields.io/badge/Open%20to-collaborate-4E8C91?style=flat-square" alt="Open to collaborate"/>
 </p>
 
@@ -48,6 +49,8 @@ I turn messy operational data into numbers people can trust and dashboards peopl
     <td width="50%" valign="top">
       <h4>🚌 <a href="https://github.com/Vambane/halte">Halte</a></h4>
       <p>Cape Town's MyCiTi, UCT Jammie shuttle and Metrorail timetables in one place. Scrapes every timetable PDF into DuckDB and answers <em>"when's my next bus?"</em> and <em>"where do I change?"</em>, with load shedding overlays.</p>
+      <p><a href="https://halte.co.za"><img src="https://img.shields.io/badge/Open%20Halte-halte.co.za-E8643C?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Open Halte at halte.co.za"/></a></p>
+      <p><sub>Free, runs in any browser on your phone or laptop, no sign-up or download.</sub></p>
       <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square" alt=""/> <img src="https://img.shields.io/badge/-DuckDB-17414B?style=flat-square" alt=""/> <img src="https://img.shields.io/badge/-Render-46E3B7?style=flat-square" alt=""/>
     </td>
     <td width="50%" valign="top">
@@ -86,7 +89,7 @@ I turn messy operational data into numbers people can trust and dashboards peopl
 
 ### 🌱 Currently
 
-- Expanding **Halte** to more Cape Town operators and campus shuttles
+- Expanding **[Halte](https://halte.co.za)** to more Cape Town operators and campus shuttles
 - Studying for **AWS Certified Cloud Practitioner**
 - Always up for a chat about analytics engineering, civic data and tools for the South African market
 
