@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Dumisani Ncubeni</title>
+  <desc id="d">Data Analyst and BI Engineer in Cape Town. Table Mountain at sunset with a bus driving along the coast.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFB38A"/>
+      <stop offset="0.55" stop-color="#FFD9B8"/>
+      <stop offset="1" stop-color="#FFF1E4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2F8F9D"/>
+      <stop offset="1" stop-color="#1D6B78"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6E9"/>
+      <stop offset="0.6" stop-color="#FFE0C2"/>
+      <stop offset="1" stop-color="#FFE0C2" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .name { font: 700 54px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #17414B; letter-spacing: -0.5px; }
+      .role { font: 500 22px -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #2A5C66; }
+      .tag  { font: 600 14px ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; fill: #B5532F; letter-spacing: 2px; }
+      .fade { opacity: 0; animation: in 1.2s ease-out forwards; }
+      .d1 { animation-delay: .2s } .d2 { animation-delay: .6s } .d3 { animation-delay: 1s }
+      @keyframes in { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+      .cloud { animation: drift 40s linear infinite; }
+      .cloud2 { animation: drift 60s linear infinite; }
+      @keyframes drift { from { transform: translateX(0) } to { transform: translateX(-1400px) } }
+      .wave { animation: bob 5s ease-in-out infinite; }
+      @keyframes bob { 0%,100% { transform: translateX(0) } 50% { transform: translateX(-30px) } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#sky)"/>
+    <circle cx="985" cy="78" r="110" fill="url(#sun)"/>
+    <circle cx="985" cy="78" r="40" fill="#FFF3E3"/>
+
+    <!-- clouds -->
+    <g class="cloud" fill="#FFFFFF" opacity="0.7">
+      <ellipse cx="1300" cy="60" rx="60" ry="12"/><ellipse cx="1330" cy="52" rx="34" ry="12"/>
+      <ellipse cx="1700" cy="95" rx="48" ry="10"/>
+    </g>
+    <g class="cloud2" fill="#FFFFFF" opacity="0.5">
+      <ellipse cx="1500" cy="40" rx="70" ry="10"/>
+    </g>
+
+    <!-- Lion's Head, Table Mountain, Devil's Peak -->
+    <path d="M560 250 C600 200 640 150 662 128 C676 116 690 120 702 140 C722 175 740 215 760 250 Z" fill="#4E8C91" opacity="0.75"/>
+    <path d="M700 250 L760 150 C770 132 780 122 800 120 L1040 118 C1056 118 1064 124 1070 134 L1100 170 C1110 150 1120 132 1132 130 C1146 128 1156 150 1170 180 L1200 220 L1200 250 Z" fill="#2E6E77"/>
+    <path d="M800 120 L1040 118" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- sea -->
+    <rect y="250" width="1200" height="70" fill="url(#sea)"/>
+    <g class="wave" stroke="#BFE6E8" stroke-width="2" fill="none" opacity="0.6" stroke-linecap="round">
+      <path d="M40 285 q15 -6 30 0 t30 0"/><path d="M240 300 q15 -6 30 0 t30 0"/>
+      <path d="M520 290 q15 -6 30 0 t30 0"/><path d="M860 302 q15 -6 30 0 t30 0"/>
+      <path d="M1080 288 q15 -6 30 0 t30 0"/>
+    </g>
+
+    <!-- coastal road -->
+    <rect y="246" width="1200" height="6" fill="#17414B" opacity="0.85"/>
+
+    <!-- bus -->
+    <g>
+      <g transform="translate(0,222)">
+        <rect x="0" y="0" width="58" height="24" rx="5" fill="#E8643C"/>
+        <rect x="6" y="5" width="9" height="8" rx="1.5" fill="#FFF1E4"/>
+        <rect x="19" y="5" width="9" height="8" rx="1.5" fill="#FFF1E4"/>
+        <rect x="32" y="5" width="9" height="8" rx="1.5" fill="#FFF1E4"/>
+        <rect x="45" y="5" width="9" height="10" rx="1.5" fill="#FFF1E4"/>
+        <circle cx="13" cy="24" r="4.5" fill="#17414B"/><circle cx="45" cy="24" r="4.5" fill="#17414B"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate" from="-80 0" to="1280 0" dur="14s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- text -->
+    <text x="64" y="86" class="tag fade d1">HI, I'M</text>
+    <text x="62" y="146" class="name fade d2">Dumisani Ncubeni</text>
+    <text x="64" y="184" class="role fade d3">Data Analyst &amp; BI Engineer · Cape Town, South Africa</text>
+
+    <text x="64" y="218" class="tag fade d3" style="fill:#2A5C66;letter-spacing:1px">SQL · dbt · Snowflake · Python · Streamlit · Power BI</text>
+  </g>
+</svg>
