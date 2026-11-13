@@ -14,7 +14,7 @@
 
 I turn messy operational data into numbers people can trust and dashboards people actually open.
 
-- 🩺 **Now:** Data Analyst & BI Engineer at **AI Diagnostics**, building the screening, device fleet and investor reporting behind a SAHPRA-approved digital stethoscope for TB and cardiopulmonary screening.
+- 🩺 **Now:** Data Analyst & BI Engineer at **AI Diagnostics**, 
 - 💳 **Before:** analytics engineering at **PayJustNow** (BNPL fintech): pipeline reconciliation, collections forecasting and financial reporting on Snowflake and dbt.
 - 🎓 Social Science at **UCT**, then a Higher Certificate in Data Science at **ExploreAI Academy**. I came to data through people, and it still shapes how I build.
 - 🚌 On the side I build practical tools for South Africa: transit, civic data and small-business tooling. Every project gets an Afrikaans name.
